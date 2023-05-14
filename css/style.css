@@ -44,6 +44,7 @@ h1{
 
 p{
   font-size: 1.5rem;
+  line-height: 150%;
   text-align: justify;
 }
 
@@ -59,6 +60,7 @@ img{
 
 li{
   font-size: 1.5rem;
+  line-height: 150%;
   margin-bottom: 1%;
 }
 
@@ -79,6 +81,9 @@ footer{
 }
 
 footer div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 div a{
